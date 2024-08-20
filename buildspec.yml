@@ -12,10 +12,10 @@ phases:
   post_build:
     commands:
       - echo Build completed successfully
-      - echo "web: java -jar target/test-cicd.war" > Procfile  # Create the Procfile
+      - echo "web: java -jar target/test-cicd.war" > Procfile
 
 artifacts:
   files:
     - target/test-cicd.war
-    - Procfile  # Include the Procfile in the artifacts
+    - Procfile
   discard-paths: yes

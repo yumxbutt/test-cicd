@@ -1,1 +1,1 @@
-web: java -jar target/test-cicd.war
+web: java -jar target/test-cicd.jar

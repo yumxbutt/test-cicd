@@ -15,5 +15,5 @@ phases:
 artifacts:
   files:
     - target/test-cicd.jar
-    - Procfile
+
   discard-paths: yes

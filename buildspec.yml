@@ -12,8 +12,6 @@ phases:
   post_build:
     commands:
       - echo Build completed successfully
-      - echo "web: java -jar target/test-cicd.war" > Procfile
-
 artifacts:
   files:
     - target/test-cicd.war
